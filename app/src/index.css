@@ -1,4 +1,4 @@
-main {
+.App {
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -20,6 +20,6 @@ code {
   text-decoration: line-through;
 }
 
-input[type='checkbox'] { 
+.ant-checkbox-inner, .ant-checkbox-checked, .ant-checkbox.ant-checkbox-checked::after {
   border-radius: 50% !important;
- }
+}
